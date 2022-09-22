@@ -1,0 +1,48 @@
+
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 40px;
+
+    transition: 700ms ease-in-out;
+    /* transition: width 800ms cubic-bezier(0.4, 0, 0.2, 1),
+    height 300ms cubic-bezier(0.4, 0, 0.2, 1); */
+
+    transform: translate(-50%, -50%) scale(1);
+
+    width: 528px;
+    min-height: 580px;
+    background-color: rgb(255, 255, 255);
+
+    .backdrop.is-hidden & {
+            transform: scale(0.1);
+        }
+}
+
+.modal-close-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+    cursor: pointer;
+    transition: fill var(--animation-dur-dir);
+
+    &:hover {
+            fill: var(--accent-color);
+        }
+}
+
+
+
+/* ====================Modal form============================== */
+

@@ -1,0 +1,214 @@
+.page-footer {
+    padding: 60px 0;
+    background-color: #2f303a;
+}
+
+.logo {
+    align-items: center;
+
+    color: var(--accent-color);
+    text-decoration: none;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.logo__theme-dark {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.footer__address {
+    margin-top: 20px;
+    
+}
+
+.footer-contacts__item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.footer-contacts__link {
+    color: #757575;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+
+    transition: color var(--animation-dur-dir);
+
+        &:hover,
+        &:focus {
+            color: var(--accent-color);
+        }
+}
+
+
+
+.footer-contacts__map {
+    color: rgba(255, 255, 255, 1);
+    font-family: "Roboto";
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+
+    transition: color var(--animation-dur-dir);
+
+        &:hover,
+        &:focus {
+            color: var(--accent-color);
+        }
+}
+
+
+
+.footer-contacts-wrapper {
+    align-items: baseline;
+    /* padding-top: 60px; */
+}
+
+.footer-box {
+    display: flex;
+    align-items: baseline;
+}
+
+.join-wrapper {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.join {
+    margin-left: 70px;
+}
+
+.join__title {
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.join__icon {
+    width: 20px;
+    height: 20px;
+    fill: #ffffff;
+}
+
+.join__item {
+    display: flex;
+    justify-content: center;
+}
+
+.join__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+
+    transition: background-color var(--animation-dur-dir);
+
+        &:hover,
+        &:focus {
+            background-color: var(--accent-color);
+        }
+}
+
+
+
+/* =========================submit-footer===================== */
+.submit-footer {
+    margin-left: auto;
+}
+
+.submit-footer__email {
+    display: flex;
+    align-items: center;
+}
+
+.submit-footer__imput {
+    background-color: #2f303a;
+    color: #ffffff;
+    padding-left: 15px;
+    min-width: 358px;
+    min-height: 50px;
+    margin-right: 12px;
+
+    background: #2f303a;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+
+    &::placeholder {
+            color: rgba(255, 255, 255, 0.6);
+        }
+}
+
+
+
+.submit-footer__text {
+    margin-bottom: 20px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.submit-footer__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    background: #2196f3;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.06em;
+    transition: background-color var(--animation-dur-dir),
+        color var(--animation-dur-dir);
+
+            &:hover,
+            &:focus {
+                color: #ffffff;
+                background-color: var(--button-accent-color);
+            }
+}
+
+
+
+.submit-footer__btn_icon {
+    margin-left: 10px;
+}
