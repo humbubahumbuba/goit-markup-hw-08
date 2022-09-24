@@ -98,12 +98,12 @@ ol {
   pointer-events: auto;
 }
 
-.mobile-menu__container {
+.js-menu-container {
   position: relative;
   padding-left: 40px;
 }
 
-.mobile-menu__close-btn {
+.js-close-menu {
   position: absolute;
   top: 0;
   right: 0;
@@ -170,12 +170,12 @@ ol {
   pointer-events: auto;
 }
 
-.mobile-menu__container {
+.js-menu-container {
   position: relative;
   padding-left: 40px;
 }
 
-.mobile-menu__close-btn {
+.js-close-menu {
   position: absolute;
   top: 0;
   right: 0;
