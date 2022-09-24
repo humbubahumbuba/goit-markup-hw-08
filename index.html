@@ -15,7 +15,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" href="./sass/main.css" />
   </head>
   <body>
     <!--шапка сайта не адаптирована-->
@@ -64,27 +64,58 @@
           </li>
         </ul>
       </div>
-      <div class="mobile-menu">
-        <div class="container mobile-menu__container js-menu-container">
+      <div class="mobile-menu js-menu-container">
+        <div class="container mobile-menu__container">
           <button class="mobile-menu__close-btn js-close-menu">
             <svg class="mobile-menu__close-icon">
               <use href="./images/sprite.svg#icon-close"></use>
             </svg>
           </button>
-          <ul>
-            <li>studio</li>
-            <li>portfolio</li>
-            <li>contacs</li>
+          <ul class="mobile-nav">
+            <li class="mobile-nav__item">
+              <a href="#" class="mobile-nav__link mobile-nav__link_current"
+                >Студія</a
+              >
+            </li>
+            <li class="mobile-nav__item">
+              <a href="./portfolio.html" class="mobile-nav__link">Портфоліо</a>
+            </li>
+            <li class="mobile-nav__item">
+              <a href="#" class="mobile-nav__link">Контакти</a>
+            </li>
           </ul>
-          <ul>
-            <li></li>
-            <li></li>
+          <ul class="mobile-nav__contacts">
+            <li>
+              <li>
+              <a
+                href="tel:+380961111111"
+                class="mobile-nav__link_contact mobile-nav__tel"
+              >
+                +380961111111
+              </a>
+            </li>
+              <a
+                href="mailto:info@devstudio.com"
+                class="mobile-nav__link_contact mobile-nav__mail"
+              >
+                info@devstudio.com
+              </a>
+            </li>
+            
           </ul>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+          <ul class="mobile-nav__social">
+            <li class="mobile-nav__social_item">
+              <a href="#" class="mobile-nav__social_link">Instagram</a>
+            </li>
+            <li class="mobile-nav__social_item">
+              <a href="#" class="mobile-nav__social_link">Twitter</a>
+            </li>
+            <li class="mobile-nav__social_item">
+               <a href="#" class="mobile-nav__social_link">Facebook</a>
+            </li>
+            <li class="mobile-nav__social_item">
+               <a href="#" class="mobile-nav__social_link">Linkedin</a>
+            </li>
           </ul>
         </div>
       </div>
