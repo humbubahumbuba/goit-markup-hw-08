@@ -12,6 +12,15 @@
   letter-spacing: 0.03em;
 }
 
+// font-family: "Raleway";
+// font-style: normal;
+// font-weight: 700;
+// font-size: 24px;
+// line-height: 28px;
+// letter-spacing: 0.03em;
+
+// color: #2196f3;
+
 .logo__theme-light {
   align-items: center;
 
@@ -34,4 +43,32 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+}
+
+@media screen and(max-width: 1199px) {
+  .logo {
+    display: flex;
+    align-items: center;
+
+    color: var(--accent-color);
+    text-decoration: none;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+  }
+  .logo__theme-light {
+    align-items: center;
+
+    color: #000000;
+    text-decoration: none;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+  }
 }
