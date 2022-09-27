@@ -65,7 +65,7 @@ ol {
 
 @media screen and (min-width: 450px) {
   .container {
-    max-width: 480px;
+    max-width: 450px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -77,7 +77,7 @@ ol {
 }
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1200px;
+    max-width: 1200px;
   }
 }
 @media screen and (max-width: 767px) {
