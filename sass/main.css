@@ -326,7 +326,6 @@ ol {
   .auth-nav__contacts {
     display: block;
     padding-top: 21px;
-    padding-bottom: 21px;
     margin-left: auto;
   }
   .site-nav {
@@ -2431,6 +2430,12 @@ ol {
     letter-spacing: 0.03em;
   }
 }
+@media screen and (max-width: 767px) {
+  .select-menu {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 .select-menu {
   display: flex;
   justify-content: center;
@@ -2473,6 +2478,7 @@ ol {
   text-decoration: none;
   color: var(--title-text-color);
   width: 370px;
+  height: 100%;
   border: 1px solid #eeeeee;
   border-top: none;
   transition: box-shadow var(--animation-dur-dir);
