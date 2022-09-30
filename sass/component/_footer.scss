@@ -293,7 +293,7 @@
   .submit-footer {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: baseline;
   }
 
   .submit-footer__imput {
@@ -470,7 +470,10 @@
   }
 
   .submit-footer {
-    margin-left: 93px;
+    display: flex;
+    align-items: baseline;
+
+    margin-left: auto;
   }
 
   .submit-footer__email {
@@ -512,6 +515,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0;
     width: 200px;
     height: 50px;
     background: #2196f3;
