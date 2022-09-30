@@ -1,17 +1,18 @@
 @media screen and (max-width: 767px) {
   .client {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-    gap: 30px;
+    flex-direction: column;
+    // flex-wrap: wrap;
+    // justify-content: center;
+    align-items: center;
+    row-gap: 30px;
   }
 
   .clients__link {
     display: flex;
-
     align-items: center;
     justify-content: center;
+
     height: 92px;
     width: 170px;
     border: 1px solid #afb1b8;

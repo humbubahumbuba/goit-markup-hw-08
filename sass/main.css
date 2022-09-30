@@ -122,6 +122,9 @@ ol {
     padding-left: 40px;
     padding-top: 48px;
     padding-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
   }
   .mobile-menu__close-btn {
     position: absolute;
@@ -154,13 +157,15 @@ ol {
   .mobile-nav__link_current {
     color: var(--accent-color);
   }
+  .mobile-nav__contacts {
+    margin-top: auto;
+  }
   .mobile-nav__link_contact {
     display: block;
     text-decoration: none;
     color: rgb(117, 117, 117);
   }
   .mobile-nav__tel {
-    margin-top: 200px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
@@ -181,7 +186,7 @@ ol {
   }
   .mobile-nav__social {
     display: flex;
-    margin-top: 64px;
+    flex-wrap: wrap;
     padding-top: 48px;
   }
   .mobile-nav__social_link {
@@ -247,6 +252,7 @@ ol {
   .logo {
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
     color: var(--accent-color);
     text-decoration: none;
     font-family: "Raleway";
@@ -499,6 +505,9 @@ ol {
     padding-left: 40px;
     padding-top: 48px;
     padding-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
   }
   .mobile-menu__close-btn {
     position: absolute;
@@ -531,13 +540,15 @@ ol {
   .mobile-nav__link_current {
     color: var(--accent-color);
   }
+  .mobile-nav__contacts {
+    margin-top: auto;
+  }
   .mobile-nav__link_contact {
     display: block;
     text-decoration: none;
     color: rgb(117, 117, 117);
   }
   .mobile-nav__tel {
-    margin-top: 200px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
@@ -558,7 +569,7 @@ ol {
   }
   .mobile-nav__social {
     display: flex;
-    margin-top: 64px;
+    flex-wrap: wrap;
     padding-top: 48px;
   }
   .mobile-nav__social_link {
@@ -589,23 +600,17 @@ ol {
     padding: 60px 0;
     background-color: #2f303a;
   }
-  .footer-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    row-gap: 60px;
-  }
   .footer-contacts-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
   }
   .footer-contacts {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    -moz-column-gap: 8px;
-         column-gap: 8px;
+    margin-bottom: 60px;
+  }
+  .footer-contacts:not(:last-child) {
+    margin-bottom: 8px;
   }
   .footer-contacts__link {
     color: #757575;
@@ -659,6 +664,7 @@ ol {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 60px;
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -674,15 +680,13 @@ ol {
     fill: #ffffff;
   }
   .submit-footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: block;
   }
   .submit-footer__imput {
     background-color: #2f303a;
     color: #ffffff;
     padding-left: 15px;
-    min-width: 320px;
+    width: 100%;
     min-height: 50px;
     background: #2f303a;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -698,6 +702,7 @@ ol {
     color: rgba(255, 255, 255, 0.6);
   }
   .submit-footer__text {
+    text-align: center;
     margin-bottom: 20px;
     font-family: "Roboto";
     font-style: normal;
@@ -2304,9 +2309,9 @@ ol {
 @media screen and (max-width: 767px) {
   .client {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
   }
   .clients__link {
     display: flex;

@@ -25,6 +25,9 @@
     padding-left: 40px;
     padding-top: 48px;
     padding-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
   }
 
   .mobile-menu__close-btn {
@@ -62,15 +65,15 @@
   .mobile-nav__link_current {
     color: var(--accent-color);
   }
-
+  .mobile-nav__contacts {
+    margin-top: auto;
+  }
   .mobile-nav__link_contact {
     display: block;
     text-decoration: none;
     color: rgba(117, 117, 117, 1);
   }
   .mobile-nav__tel {
-    margin-top: 200px;
-
     font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
@@ -94,7 +97,7 @@
 
   .mobile-nav__social {
     display: flex;
-    margin-top: 64px;
+    flex-wrap: wrap;
     padding-top: 48px;
   }
 
