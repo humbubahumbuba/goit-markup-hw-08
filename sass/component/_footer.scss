@@ -214,6 +214,9 @@
     // align-items: center;
     column-gap: 8px;
   }
+  .footer-contacts__item {
+    text-align: center;
+  }
   .footer-contacts__link {
     color: #757575;
     text-decoration: none;
@@ -388,6 +391,9 @@
     // text-align: left;
     // align-items: center;
     // column-gap: 8px;
+  }
+  .footer-contacts__item {
+    text-align: left;
   }
 
   .footer-contacts__item:not(:last-child) {

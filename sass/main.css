@@ -789,6 +789,11 @@ ol {
   }
 }
 @media screen and (min-width: 768px) {
+  .footer-contacts__item {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 768px) {
   .footer-contacts__link {
     color: #757575;
     text-decoration: none;
@@ -963,6 +968,9 @@ ol {
   .footer-contacts {
     display: flex;
     flex-direction: column;
+  }
+  .footer-contacts__item {
+    text-align: left;
   }
   .footer-contacts__item:not(:last-child) {
     margin-bottom: 9px;
