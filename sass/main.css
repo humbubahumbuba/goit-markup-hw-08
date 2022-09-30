@@ -91,7 +91,6 @@ ol {
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
-    margin: 0;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -2473,8 +2472,7 @@ ol {
     margin-bottom: 30px;
   }
   .product__link {
-    display: flex;
-    flex-direction: column;
+    display: block;
     background-color: #eeeeee;
     text-decoration: none;
     color: var(--title-text-color);
@@ -2569,7 +2567,9 @@ ol {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    width: calc((100% - 30px) / 2);
+  }
+  .product__item {
+    flex-basis: calc((100% - 30px) / 2);
   }
   .product__link {
     display: flex;
