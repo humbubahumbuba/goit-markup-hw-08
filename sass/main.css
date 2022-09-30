@@ -457,9 +457,9 @@ ol {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     margin-left: auto;
     padding-top: 27px;
-    padding-bottom: 27px;
   }
   .auth-nav__item + .auth-nav__item {
     margin-left: 30px;
