@@ -141,6 +141,10 @@ ol {
     width: 40px;
     height: 40px;
     fill: #212121;
+    transition: fill var(--animation-dur-dir);
+  }
+  .mobile-menu__close-icon:hover, .mobile-menu__close-icon:focus {
+    fill: var(--accent-color);
   }
   .mobile-nav__link {
     display: block;
@@ -525,6 +529,10 @@ ol {
     width: 40px;
     height: 40px;
     fill: #212121;
+    transition: fill var(--animation-dur-dir);
+  }
+  .mobile-menu__close-icon:hover, .mobile-menu__close-icon:focus {
+    fill: var(--accent-color);
   }
   .mobile-nav__link {
     display: block;

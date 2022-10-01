@@ -41,10 +41,17 @@
     padding-right: 15px;
     padding-top: 10px;
   }
+
   .mobile-menu__close-icon {
     width: 40px;
     height: 40px;
     fill: #212121;
+    transition: fill var(--animation-dur-dir);
+
+    &:hover,
+    &:focus {
+      fill: var(--accent-color);
+    }
   }
   // =======================mobile-menu-content==========================
   .mobile-nav__link {
