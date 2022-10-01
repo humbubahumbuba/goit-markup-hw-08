@@ -1,11 +1,16 @@
 @media screen and (max-width: 767px) {
   .client {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    // flex-direction: column;
     // flex-wrap: wrap;
     // justify-content: center;
     align-items: center;
-    row-gap: 30px;
+    gap: 30px;
+  }
+
+  .client__list {
+    width: calc((100% - 30px) / 2);
   }
 
   .clients__link {
@@ -14,7 +19,7 @@
     justify-content: center;
 
     height: 92px;
-    width: 170px;
+    width: 226px;
     border: 1px solid #afb1b8;
     border-radius: 4px;
     color: var(--primary-link-color);

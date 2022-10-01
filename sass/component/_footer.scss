@@ -18,6 +18,7 @@
   }
   .footer-contacts {
     margin-bottom: 60px;
+    margin-top: 20px;
   }
   .footer-contacts__item:not(:last-child) {
     margin-bottom: 8px;
@@ -210,6 +211,7 @@
   .footer-contacts {
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
     // text-align: center;
     // align-items: center;
     column-gap: 8px;
@@ -388,6 +390,7 @@
   .footer-contacts {
     display: flex;
     flex-direction: column;
+    margin-top: 0;
     // text-align: left;
     // align-items: center;
     // column-gap: 8px;
